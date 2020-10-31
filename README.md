@@ -1,2 +1,122 @@
 # MyPro01
-æ¡Œé¢éŸ³ä¹æ’­æ”¾å™¨
+
+## ½éÉÜ
+
+ÒôÀÖ²¥·ÅÆ÷
+
+## Èí¼ş¼Ü¹¹
+```
+base£¨»ù±¾£©
+	Test.java£¨²âÊÔÀà£¬Ö÷Àà£©
+controller£¨¿ØÖÆ£©
+	Data.java£¨Êı¾İ£©
+handle£¨´¦Àí£©
+	HandleLogin.java£¨µÇÂ¼´¦ÀíÕß£©
+	HandleRegister.java£¨×¢²á´¦ÀíÕß£©
+model£¨Ä£ĞÍ£©
+	Login.java£¨µÇÂ¼Ä£ĞÍ£©
+	Register.java£¨×¢²áÄ£ĞÍ£©
+tool£¨¹¤¾ß£©
+	getConnection.java£¨¼ÓÔØJDBC_MySQLÊı¾İ¿âÇı¶¯+Á¬½ÓÊı¾İ¿â£©
+	stringUtil.java£¨×Ö·û´®¹¤¾ßÀà£©
+view£¨ÊÓÍ¼£©
+	BackgroundPanel.java£¨ÓĞ±³¾°Í¼Æ¬µÄPanelÀà£©
+	Interface_Login.java£¨µÇÂ¼½çÃæ£©
+	Interface_MainFrame.java£¨Ö÷½çÃæ£©
+	Interface_Register.java£¨×¢²á½çÃæ£©
+	Panel_MusicBook.java£¨ÒôÀÖÊéÃæ°å£©
+	Panel_MusicIsland.java£¨ÒôÀÖµºÃæ°å£©
+	Panel_MusicTree.java£¨ÒôÀÖÊ÷Ãæ°å£©
+	Panel_PersonalInformation.java£¨¸öÈËĞÅÏ¢£©
+	Panel_Playlists.java£¨²¥·ÅÁĞ±í£©
+	Panel_Seting.java£¨ÉèÖÃ£©
+```
+## °²×°½Ì³Ì
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+## Ê¹ÓÃËµÃ÷
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+## ²ÎÓë¹±Ï×
+
+1.  Fork ±¾²Ö¿â
+2.  ĞÂ½¨ Feat_xxx ·ÖÖ§
+3.  Ìá½»´úÂë
+4.  ĞÂ½¨ Pull Request
+
+## ÌØ¼¼
+
+1. Ê¹ÓÃ Readme\_XXX.md À´Ö§³Ö²»Í¬µÄÓïÑÔ£¬ÀıÈç Readme\_en.md, Readme\_zh.md
+2. Gitee ¹Ù·½²©¿Í [blog.gitee.com](https://blog.gitee.com)
+3. Äã¿ÉÒÔ [https://gitee.com/explore](https://gitee.com/explore) Õâ¸öµØÖ·À´ÁË½â Gitee ÉÏµÄÓÅĞã¿ªÔ´ÏîÄ¿
+4. [GVP](https://gitee.com/gvp) È«³ÆÊÇ Gitee ×îÓĞ¼ÛÖµ¿ªÔ´ÏîÄ¿£¬ÊÇ×ÛºÏÆÀ¶¨³öµÄÓÅĞã¿ªÔ´ÏîÄ¿
+5. Gitee ¹Ù·½Ìá¹©µÄÊ¹ÓÃÊÖ²á [https://gitee.com/help](https://gitee.com/help)
+6. Gitee ·âÃæÈËÎïÊÇÒ»µµÓÃÀ´Õ¹Ê¾ Gitee »áÔ±·ç²ÉµÄÀ¸Ä¿ [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+# ¼ò½é
+
+## MVCÉè¼Æ
+
+### modelÄ£ĞÍ£º
+
+- ´æ´¢Êı¾İµÄ¶ÔÏó
+
+
+### viewÊÓÍ¼£º
+
+- ÎªÄ£ĞÍÌá¹©Êı¾İÏÔÊ¾µÄ¶ÔÏó
+- ÏÔÊ¾Êı¾İ£¨¶ÁÈ¡Êı¾İ¿â¼ÇÂ¼£©
+
+### controller¿ØÖÆÆ÷£º
+
+- ´¦ÀíÓÃ»§µÄ½»»¥²Ù×÷£¬¶ÔÓÃ»§²Ù×÷×ö³öÏìÓ¦
+- ÈÃÄ£ĞÍºÍÊÓÍ¼½øĞĞ±ØÒªµÄ½»»¥
+- Í¨¹ıÊÓÍ¼ĞŞ¸Ä£¬»ñÈ¡Ä£ĞÍÖĞµÄÊı¾İ£»µ±Ä£ĞÍÖĞÊı¾İ±ä»¯£¬ÊÓÍ¼¸üĞÂÏÔÊ¾
+- ´¦ÀíÊäÈë£¨Ğ´ÈëÊı¾İ¿â¼ÇÂ¼£©
+
+## Éè¼ÆË¼Â·
+
+### Êı¾İ¿âÉè¼Æ
+
+- ´´½¨Êı¾İ¿âmypro01
+- ´´½¨ÓÃ»§±íusers
+- ´´½¨×¢²á±íregister
+
+### Êı¾İÄ£ĞÍ
+
+- ×¢²áÄ£ĞÍ
+- µÇÂ¼Ä£ĞÍ
+- °üÃûmodel
+
+### Êı¾İ´¦ÀíÕß
+
+- ×¢²á´¦ÀíÕß
+- µÇÂ¼´¦ÀíÕß
+- °üÃûhandle
+
+### ÊÓÍ¼
+
+# ÆäËû
+```
+User 
+	UserID;// ÓÃ»§ÕËºÅ
+	UserPassword;// ÓÃ»§ÃÜÂë
+	UserName;// ÓÃ»§Ãû
+	UserSentence;//¸öĞÔÇ©Ãû
+	UserGrade;//ÓÃ»§µÈ¼¶
+	UserTime;//ÓÃ»§Ìı¸è×ÜÊ±³¤
+Music
+	MusicID;// ¸èÇúID
+	MusicName;// ¸èÃû
+	MusicTime;//Ä³¸è±»Ìı×ÜÊ±³¤
+Contact
+	UserID;// ÓÃ»§ÕËºÅ
+	MusicID;// ¸èÇúID
+	UserMusicTime;//Ä³¸èÄ³ÈËÌı¸èÊ±³¤
+```
