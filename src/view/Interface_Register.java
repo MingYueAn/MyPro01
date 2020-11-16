@@ -209,6 +209,10 @@ public class Interface_Register extends JFrame {
 			JOptionPane.showMessageDialog(null, "密码不能为空");
 			return;
 		}
+		if (password1.equals(password2) == false) {
+			JOptionPane.showMessageDialog(null, "两次密码输入不一致");
+			return;
+		}
 
 		// 注册模型
 		Register register = new Register();

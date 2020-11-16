@@ -120,3 +120,14 @@ Contact
 	MusicID;// 歌曲ID
 	UserMusicTime;//某歌某人听歌时长
 ```
+
+# 数据库设计
+```
+mypro01——数据库名
+	表格
+	register——注册表
+		元素
+		UserID——账号ID
+		UserPassword——账号密码
+		Birth——注册日期
+```

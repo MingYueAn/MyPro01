@@ -17,12 +17,25 @@ public class Panel_MusicIsland extends BackgroundPanel {
 
 	public Panel_MusicIsland() {
 		super(new ImageIcon("src\\image\\背景_2.jpg").getImage());
-		// TODO 自动生成的构造函数存根
+		this.setLayout(null);
+	}
+
+	/**
+	 * 窗体组件初始化
+	 */
+	public void init(int w, int h) {
 		JLabel Title = new JLabel("音乐岛");
-		Font fTitle = new Font("楷体", Font.BOLD, 30);
-		Title.setFont(fTitle);
+		Title.setFont(new Font("楷体", 0, 30));
 		Title.setForeground(Color.white);
+		Title.setBounds((w - 90) / 2, 0, 90, 30);
 		this.add(Title);
+	}
+
+	/**
+	 * 事件监听
+	 */
+	public void addListener() {
+		// TODO 自动生成的方法存根
 
 	}
 
